@@ -1,0 +1,43 @@
+.blockGL {
+    width: 300px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    display: block;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0px 5px 30px;
+}
+
+.blocktwo {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blocktm input {
+    display: flex;
+    flex-direction: column;
+    width: 127px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 5px;
+}
+
+.blocktm span {
+    font-family: 'Times New Roman', Times, serif;
+    color: #AFAFAF;
+    font-size: 18px;
+}

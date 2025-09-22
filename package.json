@@ -1,0 +1,22 @@
+{
+  "name": "reversed-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.9.0",
+    "mobx": "^6.0.0",
+    "mobx-react-lite": "^3.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-svgr": "^4.5.0"
+  }
+}

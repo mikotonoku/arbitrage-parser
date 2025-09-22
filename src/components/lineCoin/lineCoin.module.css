@@ -1,0 +1,383 @@
+.blockst {
+    border-bottom: 1px solid black;
+    background-color: rgb(22, 23, 26);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    height: 75px;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+
+.chain {
+    position: absolute;
+    width: 20px;
+    top: 5px;
+    left: 27px;
+}
+
+.pin {
+    height: 25px;
+    width: 25px;
+    transition: 0.3s all;
+}
+
+.pin:hover {
+    filter: drop-shadow(0px 0px 5px rgb(0, 213, 255));
+    cursor: pointer;
+}
+
+.pinON {
+    height: 25px;
+    width: 25px;
+    transition: 0.3s all;
+}
+
+.pinON path {
+    fill: #00D9FF !important;
+}
+
+.pinON:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px rgb(0, 213, 255));
+}
+
+.star {
+    height: 25px;
+    width: 25px;
+}
+
+.star:hover {
+    cursor: pointer;
+}
+
+.starOn path {
+    fill: #2180FF !important;
+}
+
+.star:hover path {
+    cursor: cell;
+    fill: #125cbd !important;
+}
+
+.blockn {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.blockn:hover path {
+    fill: rgb(106, 0, 0) !important;
+    fill-opacity: 1 !important;
+}
+
+.blocknON path {
+    fill: rgb(163, 0, 0) !important;
+    fill-opacity: 1 !important;
+}
+
+.blocknON:hover path {
+    fill: rgb(106, 0, 0) !important;
+    fill-opacity: 1 !important;
+}
+
+.iconBlFu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-left: -6px;
+    height: 75px;
+}
+
+.image {
+    width: 53px;
+    height: 53px;
+    border-radius: 100%;
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+.blockleftdata {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    position: relative;
+    width: 100%;
+}
+
+.nameCoin {
+    margin: 0px;
+    top: 2px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.limit {
+    white-space: nowrap;
+    position: absolute;
+    margin: 0px;
+    top: 26px;
+    left: 5px;
+    color: #c6c6c6d4;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.funding {
+    white-space: nowrap;
+    position: absolute;
+    margin: 0px;
+    top: 40px;
+    left: 5px;
+    font-size: 12px;
+    color: #c6c6c6d4;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+
+.depwith {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    left: -8px;
+    top: 55px;
+    color: #7D7D7D;
+    font-weight: 600;
+}
+
+.depwith p {
+    margin: 0px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.depwith img {
+    margin: 0px 3px;
+}
+
+.blockMiddle {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.blockMiddle:hover {
+    cursor: pointer;
+}
+
+.line {
+    height: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+}
+
+.mblock1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.mblock2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.namemid {
+    color: #00D9FF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.namemidp {
+    color: #ffffffc0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blockRight {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 35px;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    margin-right: -10px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(240, 240, 240, 0.85);
+    margin-right: 12px;
+}
+
+.spread {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 2;
+    position: absolute;
+    top: 11px;
+    right: 12px;
+}
+
+.backb {
+    background-color: #00000072;
+    width: 70px;
+    height: 35px;
+    border-bottom-left-radius: 20px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+.backbON {
+    box-shadow: -2px -1px 4px 0px rgb(255, 234, 0);
+}
+
+.izmprgr {
+    position: absolute;
+    font-size: 11px;
+    font-weight: 1px;
+    right: 2px;
+    top: 0px;
+    color: rgb(11, 181, 113);
+    z-index: 4;
+}
+
+.izmprre {
+    position: absolute;
+    font-size: 11px;
+    font-weight: 1px;
+    right: 2px;
+    top: 0px;
+    color: rgb(239, 68, 92);
+    z-index: 4;
+}
+
+.copy {
+    position: absolute;
+    width: 150px;
+    height: 16px;
+    background-color: #2c2c2c;
+    border: 1px solid black;
+    z-index: 20;
+    font-weight: 400;
+    border-radius: 5px;
+    color: rgb(199, 199, 199);
+    display: flex;
+    bottom: 3px;
+    left: 37px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.copy span {
+    font-size: 12px;
+}
+
+.ca {
+    position: absolute;
+    font-size: 12px;
+    color: antiquewhite;
+    bottom: 3px;
+    left: -50px;
+    background-color: rgb(102, 102, 102);
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ca:hover {
+    cursor: pointer;
+}
+
+.checkRED {
+    background: linear-gradient(90deg, rgba(11, 186, 116, 0) 0%, rgba(255, 71, 97, 0.5) 100%);
+}
+
+.checkGREEN {
+    background: linear-gradient(90deg, rgba(78, 93, 119, 0) 0%, rgba(11, 186, 116, 0.5) 100%);
+}
+
+.checkREDfrozen {
+    background: linear-gradient(90deg, rgba(11, 186, 116, 0) 0%, rgba(165, 46, 62, 0.4) 100%);
+}
+
+.checkGREENfrozen {
+    background: linear-gradient(90deg, rgba(78, 93, 119, 0) 0%, rgba(8, 112, 70, 0.4) 100%);
+}
+
+.blockFav {
+    left: 0px;
+    position: absolute;
+    overflow: hidden;
+    width: 100px;
+    height: 100%;
+}
+
+.collon {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 10px;
+    left: 28px;
+    border-radius: 50%;
+    background-color: #FFD700;
+    filter: blur(6px);
+    z-index: 0;
+}
+
+.collon:hover {
+    cursor: pointer;
+}
+
+@media(max-width: 725px) {
+    .nameCoin {
+        font-size: 16px;
+    }
+    .blockMiddle {
+        display: none;
+    }
+}

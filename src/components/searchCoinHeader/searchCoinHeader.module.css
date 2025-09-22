@@ -1,0 +1,162 @@
+.iconsort {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.verticalLine {
+    border-left: 1px solid #777777;
+    margin: 0px 10px;
+    height: 30px;
+}
+
+.nameh:hover {
+    cursor: pointer;
+}
+
+.nameh {
+    display: flex;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 15px 20px 15px 0px;
+}
+
+.namehON {
+    color: #b712bd;
+}
+
+.blockHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+.exit:hover {
+    cursor: pointer;
+}
+
+.icon:hover path {
+    cursor: pointer;
+    fill: #125cbd !important;
+}
+
+.iconOn path {
+    fill: #2180FF !important;
+}
+
+.iconBlock {
+    width: 22px;
+    height: 22px;
+}
+
+.iconBlock path {
+    fill: #4B4E52 !important;
+    fill-opacity: 1 !important;
+}
+
+.iconBlock:hover {
+    cursor: pointer;
+}
+
+.iconBlock:hover path {
+    fill: #bd1212 !important;
+}
+
+.iconBlockOn path {
+    fill: #ff2121 !important;
+}
+
+.searchblock {
+    position: relative;
+    flex: 1;
+    margin: 0px 20px;
+}
+
+.searchblock p {
+    position: absolute;
+    font-size: 14px;
+    top: -8px;
+    right: 25px;
+    color: rgb(109, 109, 109);
+}
+
+.search {
+    width: calc(100% - 31px);
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2E3037;
+    color: white;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.iconsearch {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+/* Responsive */
+@media (max-width: 740px) {
+    .icon:hover path {
+        fill: #4B4E52 !important;
+    }
+
+    .iconOn:hover path {
+        fill: #2180FF !important;
+    }
+
+    .iconBlock:hover path {
+        fill: #4B4E52 !important;
+    }
+
+    .iconBlockOn:hover path {
+        fill: #ff2121 !important;
+    }
+}
+
+@media (max-width: 725px) {
+    .nameh {
+        display: none;
+    }
+
+    .blockHead {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        position: fixed;
+        background-color: rgb(15, 19, 28);
+        height: 55px;
+        z-index: 2;
+    }
+
+    .iconsort {
+        position: fixed;
+        bottom: 0px;
+        background-color: rgba(31, 31, 31, 0.89);
+        left: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        margin-left: 0px;
+    }
+
+    .verticalLine {
+        display: none;
+    }
+
+    .nameh {
+        justify-content: center;
+    }
+}

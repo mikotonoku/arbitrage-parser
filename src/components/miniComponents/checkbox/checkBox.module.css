@@ -1,0 +1,48 @@
+.blockboxlabel {
+    display: flex;
+    align-items: center; 
+    position: relative;
+}
+
+.blockGL {
+    width: 18px;
+    height: 18px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-right: 5px;
+}
+
+.blockGL_ON {
+    background-color: #00D9FF;
+}
+
+.blockGL:hover {
+    cursor: pointer;
+    filter: contrast(2);
+}
+
+.chain {
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+
+.check {
+    top: 6px;
+    left: 3px;
+    position: absolute;
+    width: 12px;
+    height: 11px;
+    pointer-events: none;
+}
+
+.text {
+    color: white;
+    height: 100%;
+}
+
+.check path {
+    fill: rgba(0, 0, 0, 0.9) !important;
+}

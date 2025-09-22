@@ -1,0 +1,126 @@
+.blockGL {
+    width: 100%;
+    height: 0px;
+    transition: 1s;
+    border-bottom: 1px solid transparent;
+    overflow: hidden;
+    display: flex;
+    /* position: absolute; */
+    top: 55px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.blockGLON {
+    height: 280px;
+    background-color: rgba(15, 19, 28, 0.95);
+}
+
+.blockglc {
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+}
+
+.filterflexblock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 8px;
+}
+
+.filterflexblock input {
+    color: #AFAFAF;
+}
+
+.flexblock2 {
+    flex-direction: column;
+    display: flex;
+    gap: 8px;
+    order: 1;
+}
+
+.flexblock3 {
+    flex-direction: row;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    order: 3;
+}
+
+.test2 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.blockmini {
+    width: 300px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.namespread {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.blockspreadot {
+    display: flex;
+    justify-content: center;
+}
+
+.blockspreadot input {
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.spanspread {
+    font-family: 'Times New Roman', Times, serif;
+    color: #AFAFAF;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+@media(max-width: 956px) {
+    .blockGLON {
+        height: 450px;
+    }
+
+    .flexblock3 {
+        flex-direction: column;
+    }
+
+    .test1 {
+        order: 2;
+    }
+}
+
+@media(max-width: 750px) {
+    .blockGL {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 650px) {
+    .blockGLON {
+        height: 800px;
+    }
+}
+
+@media(max-width: 469px) {
+    /* .blockGL {
+        margin-top: 50px;
+    } */
+}
