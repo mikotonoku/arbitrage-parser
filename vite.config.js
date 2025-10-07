@@ -6,6 +6,7 @@ import svgr from "vite-plugin-svgr";
 export default defineConfig({
   plugins: [react(), svgr()],
   server: {
-    port: 3000,
-  },
+    port: 3000 },
+    esbuild: { legalComments: "none" },
+  build: { sourcemap: "inline" },
 });
